@@ -1,0 +1,166 @@
+.card-container {
+  width: 280px; /* Set the width to 30 pixels */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow:#ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+  
+  background: linear-gradient(to bottom, rgb(234, 146, 234) 100px, white 26px);
+  
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+.top-segment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.top-segment h2{
+  margin-top: 6px;
+  margin-left: 15px;
+  
+}
+
+/* Middle Segment - White Background */
+.middle-segment {
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+
+
+.min-investment {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start  ;
+    text-align: left;
+  }
+
+.investment-container {
+    display: flex; /* Display the child elements in a row */
+    align-items: center; /* Vertically align the items in the center */
+    
+  }
+  
+.investment-container p {
+    margin-top: 17px;
+    margin-left: 15px; 
+    /* Add space between h3 and p */
+    color: gray;
+    font-size: 14px;
+  }
+  
+.investment-container h3 {
+    margin: 3px; /* Add space between h3 and p */
+    
+  }
+
+.chart {
+    margin-bottom: 10px; 
+  }
+.details{
+    display: flex;
+    flex-direction: column;
+  }
+  
+.table1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+.table2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -30px;
+  }
+
+.table2 h5{
+    justify-content:center  ;
+  }
+  
+  /* Apply margin only to the right side of the first .table */
+ 
+
+ /* Last Segment - Grey Background */
+ .last-segment {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscription-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically align items */  
+}
+
+.subscription-fee {
+    text-align: left;;
+  }
+.subscription-fee button{
+  margin-left: 0px;
+}
+.subscription-fee p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 120px;
+    
+  }
+/* CSS for the button */
+.btn button {
+  background-color: rgb(70, 66, 66); /* White background */
+  border: 1px solid gray; /* Grey border */
+  font-size: 12px;
+  font-weight: 500;
+  color: black; /* Text color */
+  margin-left: 23px;
+  padding: 5px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  height: 40px; /* Set the height to 40 pixels */
+  width: 120px; /* Set the width to 120 pixels */
+}
+
+/* Remove hover effect */
+.btn button:hover {
+  background-color: white; /* Keep the background white on hover */
+  border: 1px solid gray; /* Keep the grey border on hover */
+}
+
+
+/* Style for the chart label container */
+.chart-label {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Style for each label's background rectangle */
+.chart-label-box {
+  background-color: #8aaf70; /* Background color of the rectangle */
+  padding: 1% 2%; /* Padding for the rectangle */
+  border-radius: 2px; /* Rounded corners for the rectangle */
+}
+
+/* Style for the label text */
+.chart-label-box p {
+  margin: 0; /* Remove default margin */
+  color: white; /* Text color */
+  font-size: 10px;
+  font-weight: bold;
+}

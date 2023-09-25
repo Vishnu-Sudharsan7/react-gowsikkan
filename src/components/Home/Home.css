@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    justify-content: space-between; /* Space the components equally */
+    /* margin-top: 50px; */
+    margin-right: 20px;
+    width: fit-content;
+
+    /* margin-left: 20px; */
+    padding: 20px;
+    gap: 20px; /* Add some gap between the components */
+  }
+.card-1{
+    
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: rgb(138, 138, 138);
+}

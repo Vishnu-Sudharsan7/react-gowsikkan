@@ -1,0 +1,68 @@
+/* Navigator.css */
+.navbar {
+  width: 1520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #fff;
+}
+.title{
+  display: flex;
+  margin-left: 70px;
+
+}
+
+.title h1 {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #000; /* Change font color to black */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+button {
+  background-color: #e8ebee;
+  color: #000; /* Change font color to black */
+  border: none;
+  margin-right: 50px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #484849;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
